@@ -30,9 +30,14 @@ Other categories are available as package options:
 ```
 Note that only the last option defined will be used.
 
+## Color palettes:
+ ### Category 10
 ![Category10](examples/category10.png)
+ ### Category 20
 ![Category20](examples/category20.png)
+ ### Category 20b
 ![Category20b](examples/category20b.png)
+ ### Category 20c
 ![Category20c](examples/category20c.png)
 
 ## Examples
