@@ -11,9 +11,10 @@
 
 \begin{document}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=1]
   \foreach \idx in {0,...,9}{
-    \node[black, draw, rectangle,  fill=C\idx, minimum width=2cm, minimum height=1cm ] at (0, -\idx) {C\idx};
+    \node[black, draw, rectangle,  fill=C\idx, minimum width=1cm, minimum
+      height=0.25cm ] at (\idx, 0) {C\idx};
   }
 \end{tikzpicture}
 

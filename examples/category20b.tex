@@ -4,7 +4,7 @@
 % Riccardo Sven Risuleo
 % 2020-05-09 19:51
 %
-
+%
 \documentclass{standalone}
 \usepackage{tikz}
 \usepackage[category20b]{../lib/tableaucolors}
@@ -12,9 +12,9 @@
 \begin{document}
 
 \begin{tikzpicture}
-  \foreach \i/\x in {/0,1/2} {
+  \foreach \i/\y in {/0,1/0.5} {
     \foreach \j in {0,...,9}{
-    \node[black, draw, rectangle,  fill=C\i\j, minimum width=2cm, minimum height=1cm ] at (\x, -\j) {C\i\j};
+    \node[black, draw, rectangle,  fill=C\i\j, minimum width=1cm, minimum height=0.5cm ] at (\j, -\y) {C\i\j};
   }
 }
 \end{tikzpicture}
