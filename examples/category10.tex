@@ -1,0 +1,20 @@
+%
+% Example using category10 colors
+%
+% Riccardo Sven Risuleo
+% 2020-05-09 19:51
+%
+
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{../lib/tableaucolors} % Category 10 is default
+
+\begin{document}
+
+\begin{tikzpicture}
+  \foreach \idx in {0,...,9}{
+    \node[black, draw, rectangle,  fill=C\idx, minimum width=2cm, minimum height=1cm ] at (0, -\idx) {C\idx};
+  }
+\end{tikzpicture}
+
+\end{document}

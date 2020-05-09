@@ -1,0 +1,22 @@
+%
+% Example using category20b colors
+%
+% Riccardo Sven Risuleo
+% 2020-05-09 19:51
+%
+
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage[category20b]{../lib/tableaucolors}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \foreach \i/\x in {/0,1/2} {
+    \foreach \j in {0,...,9}{
+    \node[black, draw, rectangle,  fill=C\i\j, minimum width=2cm, minimum height=1cm ] at (\x, -\j) {C\i\j};
+  }
+}
+\end{tikzpicture}
+
+\end{document}
