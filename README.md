@@ -30,6 +30,11 @@ Other categories are available as package options:
 ```
 Note that only the last option defined will be used.
 
+![Category10](examples/category10.png)
+![Category20](examples/category20.png)
+![Category20b](examples/category20b.png)
+![Category20c](examples/category20c.png)
+
 ## Examples
 See the `examples` folder for some examples ;)
 
