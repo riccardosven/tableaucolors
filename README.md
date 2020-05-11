@@ -30,6 +30,8 @@ Other categories are available as package options:
 ```
 Note that only the last option defined will be used.
 
+The colors are available using using the `matplotlib` names `C0`-`C9` (and `C10-C19`, according to the chosen palette).
+
 ## Color palettes:
  ### Category 10
 ![Category10](examples/category10.png)
